@@ -1,20 +1,19 @@
 import {
-    FaSun,
     FaCloud,
     FaCloudRain,
     FaSnowflake,
     FaCloudShowersHeavy,
     FaBolt,
   } from "react-icons/fa";
-
+ import {IoMdSunny} from "react-icons/io"
   // Weather Icons Mapping
    export const weather_icons = {
-    sun: <FaSun className="text-yellow-400" size={40} />,
-    cloud: <FaCloud className="text-gray-400" size={40} />,
-    rain: <FaCloudRain className="text-blue-400" size={40} />,
-    snow: <FaSnowflake className="text-blue-200" size={40} />,
-    shower: <FaCloudShowersHeavy className="text-blue-500" size={40} />,
-    thunder: <FaBolt className="text-yellow-500" size={40} />,
+    sun: <IoMdSunny className="" size={40} />,
+    cloud: <FaCloud className="" size={40} />,
+    rain: <FaCloudRain className="" size={40} />,
+    snow: <FaSnowflake className="" size={40} />,
+    shower: <FaCloudShowersHeavy className="" size={40} />,
+    thunder: <FaBolt className="" size={40} />,
   };
 
    
